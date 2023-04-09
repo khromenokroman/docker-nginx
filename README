@@ -1,0 +1,10 @@
+перейти в папку 
+    sudo docker build .
+    
+    sudo docker images
+    посмотреть какой id у нашего образа
+
+    выполнить
+    sudo docker run -p 55:8080 -p 56:80 -v $PWD/log:/var/log/nginx -v $PWD/config:/etc/nginx/conf.d/ -dt ed2938d7320b
+    
+    вконце айди который надо поставить от имеджа
